@@ -151,6 +151,8 @@ return [
         Laravel\Socialite\SocialiteServiceProvider::class,
         Frozennode\Administrator\AdministratorServiceProvider::class,
         Dingo\Api\Provider\LaravelServiceProvider::class,
+
+        Pelletiermaxime\LaravelSelenium\LaravelSeleniumServiceProvider::class,
     ],
 
     /*

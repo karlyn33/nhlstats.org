@@ -16,9 +16,10 @@
 		,"dingo/blueprint": "0.1.4"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "~4.0"
+		"phpunit/phpunit": "~5.0"
 		,"symfony/dom-crawler": "~3.0"
 		,"symfony/css-selector": "~3.0"
+		,"pelletiermaxime/laravel-selenium": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

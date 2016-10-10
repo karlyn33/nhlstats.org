@@ -16,7 +16,9 @@ class BusServiceProvider extends ServiceProvider
     {
         $dispatcher->mapUsing(function ($command) {
             return Dispatcher::simpleMapping(
-                $command, 'Nhlstats\Commands', 'Nhlstats\Handlers\Commands'
+                $command,
+                'Nhlstats\Commands',
+                'Nhlstats\Handlers\Commands'
             );
         });
     }
